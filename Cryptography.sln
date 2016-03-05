@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptography", "Cryptography\Cryptography.csproj", "{DD411921-9FCB-4B51-BB1C-8F6221CBBC02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{63389548-1F61-424E-86FC-7F34211BCF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptographyService", "CryptographyService\CryptographyService.csproj", "{DDE77FCB-3064-42D8-BC58-3428F03182D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptographyServiceTests", "CryptographyServiceTests\CryptographyServiceTests.csproj", "{923C0C3D-5E18-4DE6-A15B-29EDBA9E8E77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CA122286-4476-41DE-8291-16212AC3D88D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD411921-9FCB-4B51-BB1C-8F6221CBBC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD411921-9FCB-4B51-BB1C-8F6221CBBC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD411921-9FCB-4B51-BB1C-8F6221CBBC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD411921-9FCB-4B51-BB1C-8F6221CBBC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE77FCB-3064-42D8-BC58-3428F03182D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE77FCB-3064-42D8-BC58-3428F03182D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE77FCB-3064-42D8-BC58-3428F03182D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE77FCB-3064-42D8-BC58-3428F03182D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923C0C3D-5E18-4DE6-A15B-29EDBA9E8E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923C0C3D-5E18-4DE6-A15B-29EDBA9E8E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923C0C3D-5E18-4DE6-A15B-29EDBA9E8E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923C0C3D-5E18-4DE6-A15B-29EDBA9E8E77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDE77FCB-3064-42D8-BC58-3428F03182D1} = {63389548-1F61-424E-86FC-7F34211BCF37}
+		{923C0C3D-5E18-4DE6-A15B-29EDBA9E8E77} = {CA122286-4476-41DE-8291-16212AC3D88D}
+	EndGlobalSection
+EndGlobal

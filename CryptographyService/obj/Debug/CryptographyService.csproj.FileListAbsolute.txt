@@ -1,0 +1,5 @@
+c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\CryptographyService\bin\Debug\CryptographyService.dll
+c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\CryptographyService\bin\Debug\CryptographyService.pdb
+c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\CryptographyService\obj\Debug\CryptographyService.csprojResolveAssemblyReference.cache
+c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\CryptographyService\obj\Debug\CryptographyService.dll
+c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\CryptographyService\obj\Debug\CryptographyService.pdb
