@@ -6,7 +6,6 @@ c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\Cryptography\b
 c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\Cryptography\obj\Debug\Cryptography.csprojResolveAssemblyReference.cache
 c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\Cryptography\obj\Debug\App.g.cs
 c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\Cryptography\obj\Debug\Cryptography_MarkupCompile.cache
-c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\Cryptography\obj\Debug\Cryptography_MarkupCompile.lref
 c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\Cryptography\obj\Debug\Cryptography.g.resources
 c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\Cryptography\obj\Debug\Cryptography.Properties.Resources.resources
 c:\users\tomek\documents\visual studio 2015\Projects\Cryptography\Cryptography\obj\Debug\Cryptography.csproj.GenerateResource.Cache

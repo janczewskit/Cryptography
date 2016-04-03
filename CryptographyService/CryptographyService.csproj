@@ -50,6 +50,7 @@
     <Compile Include="ICryptographyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\BalancingTest.cs" />
+    <Compile Include="Tests\InlineTest.cs" />
     <Compile Include="Tests\ITest.cs" />
   </ItemGroup>
   <ItemGroup />

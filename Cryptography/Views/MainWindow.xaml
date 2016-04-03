@@ -36,17 +36,17 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">Lista wyników:</TextBlock>
-            <ListView Grid.Row="1" ItemsSource="{Binding ResultsView}" HorizontalAlignment="Stretch">
+            <ListView Grid.Row="1" ItemsSource="{Binding ResultsView}" HorizontalAlignment="Stretch" SelectedIndex="1">
                 <ListView.ItemTemplate>
                     <DataTemplate DataType="ListViewItem">
                         <Grid HorizontalAlignment="Right">
                             <TextBlock x:Name="ResultViewItem" Text="{Binding Message}"/>
                         </Grid>
                         <DataTemplate.Triggers>
-                            <DataTrigger Binding="{Binding ResultValue}" Value="{x:Static testresult:TestResult.True}">
+                            <DataTrigger Binding="{Binding ResultValue}" Value="{x:Static testresult:TestResultEnum.True}">
                                 <Setter TargetName="ResultViewItem" Property="Foreground" Value="Green"/>
                             </DataTrigger>
-                            <DataTrigger Binding="{Binding ResultValue}" Value="{x:Static testresult:TestResult.False}">
+                            <DataTrigger Binding="{Binding ResultValue}" Value="{x:Static testresult:TestResultEnum.False}">
                                 <Setter TargetName="ResultViewItem" Property="Foreground" Value="Red"/>
                             </DataTrigger>
                         </DataTemplate.Triggers>

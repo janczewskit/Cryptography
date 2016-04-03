@@ -19,9 +19,9 @@ namespace CryptographyService.Tests
                 var result = testList.Count(x => x);
                 if (result == Math.Ceiling(((double)testList.Count() / 2)))
                     continue;
-                return TestResult.False;
+                return new TestResult {Result = TestResultEnum.False};
             }
-            return TestResult.True;
+            return new TestResult { Result = TestResultEnum.True};
         }
     }
 }

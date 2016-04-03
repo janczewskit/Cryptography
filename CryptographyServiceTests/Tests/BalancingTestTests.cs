@@ -13,11 +13,13 @@ namespace CryptographyService.Tests.Tests
             var ballancingTest = new BalancingTest();
             var testCollectionFalse = new List<bool>[1];
             testCollectionFalse[0] = new List<bool> {true,true,true,false,true};
-            Assert.AreEqual(TestResult.False, ballancingTest.Test(testCollectionFalse));
+            var actualFalse = ballancingTest.Test(testCollectionFalse);
+            Assert.AreEqual(new TestResult {Result =  TestResultEnum.False}, actualFalse);
 
             var testCollectionTrue = new List<bool>[1];
             testCollectionTrue[0] = new List<bool> { true, false, true, false };
-            Assert.AreEqual(TestResult.True, ballancingTest.Test(testCollectionTrue));
+            var actualTrue = ballancingTest.Test(testCollectionTrue);
+            Assert.AreEqual(new TestResult { Result = TestResultEnum.True }, actualTrue);
         }
     }
 }

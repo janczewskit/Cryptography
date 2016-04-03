@@ -98,9 +98,19 @@ namespace Cryptography.ViewModels
                 return;
             }
             var resultValue = CryptographyServiceProvider.RunTest(_selectedTest, _loadedData);
+            PrintResult(resultValue);
+        }
 
-            ResultsView.Add(new ResultViewItem(string.Format("{0} zakończył się {1}", 
-                _selectedTest, resultValue.GetDescription()), resultValue));
+        private void PrintResult(TestResult resultValue)
+        {
+            if (string.IsNullOrEmpty(resultValue.ResultDescription))
+            {
+                ResultsView.Add(new ResultViewItem(string.Format("{0} zakończył się {1}",
+                    _selectedTest, resultValue.Result.GetDescription()), resultValue.Result));
+                return;
+            }
+            ResultsView.Add(new ResultViewItem(string.Format("{0} zakończył się {1}, a wyniki to {2}",
+                _selectedTest, resultValue.Result.GetDescription(), resultValue.ResultDescription), resultValue.Result));
         }
 
         #region methods
