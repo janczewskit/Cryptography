@@ -56,6 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceTests.cs" />
     <Compile Include="Tests\BalancingTestTests.cs" />
+    <Compile Include="Tests\SacTestTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CryptographyService\CryptographyService.csproj">

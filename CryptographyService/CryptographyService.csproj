@@ -49,8 +49,10 @@
     <Compile Include="Service.cs" />
     <Compile Include="ICryptographyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\Common\CommonTest.cs" />
+    <Compile Include="Tests\Sac.cs" />
     <Compile Include="Tests\BalancingTest.cs" />
-    <Compile Include="Tests\InlineTest.cs" />
+    <Compile Include="Tests\OutlineTest.cs" />
     <Compile Include="Tests\ITest.cs" />
   </ItemGroup>
   <ItemGroup />

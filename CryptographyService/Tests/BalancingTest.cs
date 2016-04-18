@@ -17,7 +17,7 @@ namespace CryptographyService.Tests
             foreach (var testList in testData)
             {
                 var result = testList.Count(x => x);
-                if (result == Math.Ceiling(((double)testList.Count() / 2)))
+                if (result == (double)testList.Count() / 2)
                     continue;
                 return new TestResult {Result = TestResultEnum.False};
             }
